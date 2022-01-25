@@ -1,0 +1,37 @@
+body {
+    background: rgb(120, 206, 233);
+    color: white;
+    border: 5px solid rgb(0, 203, 74);
+    margin: 20px;
+    padding: 5%;
+}
+
+img {
+    float: right;
+    width: 25%;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li > a {
+    color:rgb(0, 203, 74);
+}
+
+li {
+    display: inline;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+    font-size: larger;
+}
+
+li + li {
+    border-left: 2px solid rgb(73, 19, 99);
+}

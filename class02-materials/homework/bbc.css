@@ -1,0 +1,67 @@
+.site-header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.header-link {
+    padding: 0 1em 0 1em;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: white;
+}
+
+.main-news {
+    margin: 2%;
+}
+
+.title-and-date {
+    margin-bottom: 10px;
+}
+
+.title {
+    display: inline;
+    font-size: 24px;
+}
+
+.date {
+    float: right;
+    color: lightgray;
+    font-size: 24px;
+}
+
+.main-news-item {
+    width: 49%;
+}
+
+.main-news-side {
+    float: right;
+    width: 49%;
+}
+
+.side-news-item {
+    display: inline;
+    width: 49%;
+}
+
+.news-with-details {
+    margin: 2%;
+}
+
+.news {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    border-left: solid;
+    border-color: red;
+}
+
+.news-article-with-details {
+    float: left;
+    width: 30%;
+}
