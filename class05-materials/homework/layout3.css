@@ -1,0 +1,23 @@
+header, nav, article, section, aside, footer {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+header, footer {
+    width: 100%;
+    height: 150px;
+    clear: left;
+}
+
+nav, article, section, aside {
+    height: 300px;
+    float: left;
+}
+
+nav, section, aside {
+    width: 20%;
+}
+
+article {
+    width: 40%;
+}

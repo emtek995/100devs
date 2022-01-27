@@ -1,0 +1,26 @@
+header, section, footer {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    width: 100%;
+    clear: left;
+}
+
+header + section {
+    height: 150px;
+}
+
+section + section {
+    float: left;
+    height: 200px;
+    width: 33.33%;
+}
+
+section + section + section {
+    float: left;
+    height: 200px;
+    width: 66.66%;
+}

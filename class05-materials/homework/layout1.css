@@ -1,0 +1,51 @@
+header, section, footer {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+}
+
+header, footer {
+    height: 100px;
+    clear: left
+}
+
+section {
+    float: left;
+}
+
+header + section {
+    width: 33.33%;
+    height: 150px;
+}
+
+header + section + section {
+    width: 33.33%;
+    height: 150px;
+}
+
+header + section + section + section {
+    width: 33.33%;
+    height: 150px;
+}
+
+header + section + section + section + section {
+    width: 50%;
+    height: 200px;
+}
+
+header + section + section + section + section + section {
+    width: 50%;
+    height: 200px;
+}
+
+/* .top-row {
+    width: 33.33%;
+    height: 150px;
+    float: left;
+}
+
+.bottom-row{
+    float: left;
+    width: 50%;
+    height: 200px;
+} */
