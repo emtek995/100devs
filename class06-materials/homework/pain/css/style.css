@@ -21,11 +21,6 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -43,10 +38,22 @@ header, footer {
 /*******************************************/
 section {
      height: 200px;
-     /* float: left;
-     width: 33.33%; */
 }
 
-@media screen {
-     
+@media screen and (min-width: 599px) {
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+     section + section {
+          float: left;
+          width: 50%;
+     }
+}
+
+@media screen and (min-width: 901px) {
+     section {
+          float: left;
+          width: 33.33%;
+     }
 }
