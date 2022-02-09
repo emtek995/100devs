@@ -1,0 +1,96 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+  font-family: sans;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+article, li, h3 {
+  padding: 0 0.5rem;
+}
+
+header li {
+  float: left;
+  width: 60px;
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+header a, header input {
+  margin-top: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 50px;
+  color: white;
+  background: black;
+}
+
+nav img, nav a {
+  float: left;
+}
+
+nav input {
+  float: right;
+}
+
+nav a {
+  color: white;
+}
+
+section > article {
+  float: left;
+  width: 50%;
+  height: 300px;
+  background-image: url(../assets/peacedeal.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+
+section > section {
+  float: left;
+  width: 50%;
+}
+
+main section section li {
+  height: 100px;
+  float: left;
+  width: 50%;
+}
+
+main section li {
+  float: left;
+  width: 33.33%;
+}
+
+img {
+  width: 100%;
+}

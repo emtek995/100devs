@@ -6,7 +6,7 @@
 - Watch: Independence Day
 
 ***
-# Homework (Due Tuesday - Feb. 10th):
+# Homework (Due Thursday - Feb. 10th):
 
 - Do: The 3 layouts we did in class
 - Do: The Level Ground & Source Layouts in the homework-layout-photos
