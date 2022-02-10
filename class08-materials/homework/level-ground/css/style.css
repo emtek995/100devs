@@ -22,21 +22,227 @@
 /*******************************************/
 
 body {
-
+  font-family: oswald, sans-serif;
 }
 
-
+a {
+  text-decoration: none;
+  color: #161f2a;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  background: #66768A;
+  height: 100px;
+  padding: 1.5rem 2rem;
+  margin: 0;
+  font-size: 12px;
 }
 
-footer {
+header section {
+  float: left;
+  width: 33.33%;
+}
 
+header a {
+  color: white;
+}
+
+
+
+footer {
+  background: #161f2a;
+  color: white;
+  height: 200px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.menu {
+  margin: 0 auto;
+}
+
+.menu a {
+  margin: 0 0.5rem;
+}
+
+.logo img {
+  position: relative;
+  left: 45%;
+  top: -0.5rem;
+  height: 40px;
+}
+
+.donate-button {
+  margin: auto 0;
+  float: right;
+  background: white;
+  text-align: center;
+  padding: 0.5rem;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.donate-button a {
+  color: #66768A;
+}
+
+.landing-content {
+  background: #66768A;
+  color: white;
+  text-align: center;
+  padding: 0 15%;
+}
+
+.landing-content h1 {
+  font-size:4rem;
+  padding: 2rem 0;
+}
+
+.landing-content p {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.landing-content a {
+  display: block;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  color: lightgray;
+}
+
+.landing-content span {
+  display: block;
+  color:#161f2a;
+  font-style: italic;
+  padding: 2rem;
+}
+
+.why {
+  padding: 5rem 25%;
+  text-align: center;
+}
+
+.why h2 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.why p {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.visit {
+  background: #DBDFE2;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.visit h2 {
+  font-size: 1.3rem;
+  padding: 2rem;
+}
+
+.visit p {
+  margin-bottom: 2rem;
+}
+
+.visit a {
+  border: 1px solid grey;
+  padding: 0.5rem 2.5rem;
+}
+
+.visit-left {
+  padding: 10% 2% 10% 10%;
+}
+
+.visit-right {
+  padding: 10% 10% 10% 2%;
+}
+
+.blue-rect {
+  margin: 0 auto;
+  background:#66768A;
+  width: 350px;
+  height: 200px;
+}
+
+.volunteer {
+  text-align: center;
+  padding: 5rem 25%;
+}
+
+.volunteer h2 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.volunteer p {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.volunteer a {
+  border: 1px solid grey;
+  padding: 0.5rem 2.5rem;
+}
+
+.links {
+  float: left;
+  padding: 1rem;
+}
+
+.info {
+  float: right;
+  padding: 1rem;
+}
+
+.bottom {
+  border-top: 1px solid white;
+}
+
+footer p {
+  display: inline;
+  padding: 1rem;
+  position: relative;
+  top: 1rem;
+}
+
+footer img {
+  float: right;
+  position: relative;
+  top: 0.5rem;
+  height: 30px;
+}
+
+footer span {
+  display: block;
+  padding: 0.2rem
+}
+
+footer address {
+  padding: 0.3rem;
+  color: lightgrey;
+  font-size: 0.75rem;
+}
+
+footer span {
+  color:#66768A;
+  font-size: 0.75rem;
+  padding-top: 0.5rem;
+}
+
+footer a {
+  padding-right: 1.5rem;
+  font-size: 0.75rem;
+  color: white;
+}
+
+footer i {
+  padding: 0 1rem 0.5rem 0;
+  font-size: 1.5rem;
+}

@@ -22,56 +22,21 @@
 /*******************************************/
 
 body {
-  font-family: sans-serif;
+
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
 
-h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-/* no good */
+/******************************************
+/* LAYOUT
+/*******************************************/
 header {
-  height: 50px;
+
 }
 
-header h2 {
-  float: left;
-  width: 10%;
-  padding: 0 1rem;
-}
+footer {
 
-header > a {
-  float: right;
-  width: 10%;
-  padding: 1rem;
-}
-
-header ul {
-  float: left;
-  width: 80%;
-  text-align: center;
-}
-
-header > a {
-  text-align: end;
-}
-
-header li {
-  display: inline-block;
-  padding: 1rem;
-  margin: 0 auto;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-.bbg {
-  background: #F5F9FC;
-}
