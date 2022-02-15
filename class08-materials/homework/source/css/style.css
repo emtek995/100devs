@@ -23,6 +23,7 @@
 
 body {
   font-family: sans-serif;
+  background: #F5F9FC;
 }
 
 a {
@@ -30,24 +31,35 @@ a {
   color: black;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-/* no good */
-header {
-  height: 50px;
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+button {
+  background: #304659;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+header button {
+  margin: 0.5rem;
 }
 
 header h2 {
   float: left;
-  width: 10%;
-  padding: 0 1rem;
-}
-
-header > a {
-  float: right;
   width: 10%;
   padding: 1rem;
 }
@@ -56,10 +68,6 @@ header ul {
   float: left;
   width: 80%;
   text-align: center;
-}
-
-header > a {
-  text-align: end;
 }
 
 header li {
@@ -72,6 +80,51 @@ header li {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-.bbg {
-  background: #F5F9FC;
+.left-top-form {
+  float: left;
+  width: 50%;
+  padding: 4rem;
+}
+
+.left-top-form span {
+  font-size: 0.75rem;
+}
+
+.left-top-form input {
+  background: #E1E9F0;
+  padding: 0.5rem;
+  border: none;
+}
+
+.left-top-form p {
+  margin-top: 1rem;
+}
+
+.right-bottom-image {
+  padding: 2rem;
+  float: left;
+  width: 50%;
+}
+
+.feature-container {
+  padding: 4rem;
+}
+
+.feature {
+  float: left;
+  width: 25%;
+  padding: 0 0.5rem 3rem 0;
+}
+
+.feature > i {
+  font-size: 2rem;
+}
+
+.feature p {
+  margin: 0 0 1rem 0;
+}
+
+.info {
+  padding: 4rem 45% 4rem 4rem;
+  background: white;
 }

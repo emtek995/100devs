@@ -1,0 +1,258 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5rem;
+  background: #F9F9FB;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background: #1C2332;
+  color: white;
+  padding: 2rem 4rem 4rem 4rem;
+  font-size: 0.75rem;
+}
+
+
+header ul {
+  float: right;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+header a {
+  color: #878B93;
+}
+
+header i {
+  float: left;
+}
+
+footer {
+  padding: 0 4rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+
+h2 + p {
+  margin-bottom: 1rem;
+}
+
+p + p {
+  padding-bottom: 4rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.float-50 {
+  float: left;
+  width: 50%;
+}
+
+.signup-button {
+  background: #3B414F;
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+
+.home-link {
+  color: white;
+}
+
+.inject {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  padding: 4rem;
+}
+
+.inject::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -120%;
+  left: -50%;
+  z-index: -1;
+  background:#1C2332;
+  transform: rotate(-7deg);
+}
+
+.inject-left {
+  padding-right: 4rem;
+}
+
+.inject-right {
+  background: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 0.5rem -0.5rem lightgrey;
+}
+
+.inject p {
+  padding-bottom: 5rem;
+}
+
+.grey-box {
+  background: #DDE0E9;
+  width: 100%;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.blue-box {
+  position: relative;
+  top: 33.33%;
+  background: #1C2332;
+  width: 33.33%;
+  height: 33.33%;
+  margin: auto;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.blue-box i {
+  font-size: 2rem;
+}
+
+.blue-box span {
+  display: block;
+}
+
+
+.white-button {
+  font-size: 0.75rem;
+  background: white;
+  color: #1C2332;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.blue-button {
+  font-size: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: #1C2332;
+}
+
+.logos {
+  margin: 3rem 4rem;
+  float: right;
+}
+
+.logos i {
+  color: grey;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.logos img {
+  height: 20px;
+  padding: 0 1rem;
+}
+
+.info-box {
+  float: left;
+  width: 50%;
+  padding: 0 4rem 0 2rem;
+}
+
+.info-box span {
+  font-size: 0.75rem;
+}
+
+.left-box {
+  padding: 0 2rem 0 4rem;
+}
+
+.four-things {
+  padding: 2rem 4rem 2rem 2rem;
+  float: left;
+  width: 50%;
+}
+
+.thing {
+  float: left;
+  background: white;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 0.5rem -0.5rem lightgrey;
+  width: 45%;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+}
+
+.thing h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.thing p {
+  font-size: 0.75rem;
+  padding: 0.25rem;
+}
+
+.small-blue-box {
+  background: #1C2332;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  padding-bottom: 75%;
+}
+
+.small-grey-box {
+  background:#DDE0E9;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  padding-bottom: 75%;
+}
+
+.image-here {
+  float: left;
+  width: 50%;
+  padding: 0 2rem 0 4rem;
+}
+
+.info-bar {
+  padding: 4rem;
+  text-align: center;
+}
