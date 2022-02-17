@@ -55,7 +55,17 @@ button {
 }
 
 header button {
-  margin: 0.5rem;
+  float: right;
+  margin: 1%;
+  min-width: 8%;
+}
+
+header i {
+  position: absolute;
+  top: -10%;
+  float: left;
+  display: hidden;
+  width: 0;
 }
 
 header h2 {
@@ -66,7 +76,7 @@ header h2 {
 
 header ul {
   float: left;
-  width: 80%;
+  width: 75%;
   text-align: center;
 }
 
@@ -127,4 +137,36 @@ header li {
 .info {
   padding: 4rem 45% 4rem 4rem;
   background: white;
+}
+
+@media all and (max-width: 600px) {
+  .feature {
+    width: 100%;
+    padding: 0 0.5rem 3rem 0;
+  }
+
+  .left-top-form {
+    width: 100%;
+    padding: 4rem;
+  }
+
+  .right-bottom-image {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  header ul {
+    display: none;
+  }
+
+  header i {
+    position: relative;
+    top: 0;
+    padding: 1.25rem
+  }
+
+  header h2 {
+    float: left;
+    padding: 1rem;
+  }
 }

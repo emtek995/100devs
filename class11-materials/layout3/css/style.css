@@ -65,9 +65,21 @@ nav, ul, main{
   display: flex;
   justify-content: space-around;
 }
+
+nav {
+  align-items: baseline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
 ul{
   flex-basis: 60%;
+  list-style: none;
 }
+
 main section{
   flex-basis: 48%;
 }

@@ -30,7 +30,7 @@ main {
   background-repeat: no-repeat;
 }
 
-main::before {
+/* main::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -41,7 +41,7 @@ main::before {
   transform: rotate(7deg);
   border-radius: 5rem;
   border: 5px solid #A59A98;
-}
+} */
 
 main p {
   padding: 1rem 0;
@@ -133,7 +133,7 @@ li {
 }
 
 .card-holder {
-  padding: 6rem 8rem;
+  padding: 3rem 8rem;
   text-align: center;
 }
 
@@ -149,4 +149,112 @@ li {
 
 .momentum {
   background: #F3F4F6;
+  padding: 2rem 8rem;
+}
+
+.momentum h2 {
+  font-size: 2rem;
+}
+
+.momentum p {
+  padding: 1rem 0;
+  line-height: 1rem;
+  width: 80%;
+}
+
+.momentum section {
+  float: left;
+  width: 50%;
+}
+
+.momentum img {
+  width: 100%;
+}
+
+.stylists {
+  padding: 2rem 6rem;
+  text-align: center;
+}
+
+.stylist {
+  float: left;
+  width: 33.33%
+}
+
+.stylist img {
+  padding: 1rem;
+  width: 100%;
+}
+
+.stylist-box {
+  position: relative;
+  top: -3rem;
+  color: white;
+  background-color: #252525;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.stylist-box span {
+  display: inline-block;
+  padding: 0 0 1rem 0;
+}
+
+.color-day {
+  background: url(../assets/Aesthetik-dresDermal\ 1-1.webp);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 10% 30%;
+  padding: 10%;
+  width: 90%;
+  line-height: 1rem;
+  margin: 0 auto;
+}
+
+.color-day h4 {
+  padding: 1rem 0;
+}
+
+.color-day p {
+  font-size: 1.3rem;
+  width: 40%;
+  line-height: 3rem;
+}
+
+.color-day span {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 4rem 0;
+}
+
+.color-day .dark-button {
+  margin: 2rem 0;
+}
+
+.look-book-header {
+  padding: 8rem 0 4rem 0;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.look-book {
+  padding: 6rem;
+}
+
+.look-book-column {
+  padding: 0.5rem;
+  float: left;
+  width: 33.33%;
+}
+
+.look-book-column img {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.dark-square {
+  background: #252525;
+  width: 100%;
+  margin: 0 auto;
+  height: 200px;
 }

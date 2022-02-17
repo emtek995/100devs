@@ -12,3 +12,9 @@
 - https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
 - https://youtu.be/JJSoEo8JSnc
 - https://mastery.games/flexboxzombies/
+
+
+***
+## Networking
+- 1 net
+- 1 coffee chat

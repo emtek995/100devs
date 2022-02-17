@@ -17,26 +17,167 @@
 	clear: both;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
+html {
+  font-size: 62.5%;
+}
 
 body {
-
+  font-family: sans-serif;
+  line-height: 1.5rem;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+h1, h2 {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+  color:#FF8800;
+}
+
+i {
+  color: #FF8800;
+}
+
 header {
-
+  text-align: right;
+  background: #F2F7FA;
+  padding: 1rem;
 }
 
-footer {
-
+header li {
+  display: inline-block;
+  padding: 0 1rem;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+header i {
+  color: black;
+}
+
+main {
+  background: #F2F7FA;
+  padding: 5% 40% 5% 5%;
+}
+
+main h1 {
+  width: 40%;
+}
+
+p {
+  padding: 1rem 0;
+}
+
+form {
+  margin: 2rem 0;
+}
+
+span {
+  padding: 1rem 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: thin solid lightgrey;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  background: #FF8800;
+  color: white;
+  border: none;
+}
+
+button i {
+  color: white;
+}
+
+.about {
+  padding: 5% 20% 5% 40%;
+}
+
+.about-button {
+  padding: 1rem 0 1rem 1rem;
+  margin: 0;
+  background: #FF8800;
+  color: white;
+}
+
+.about-button i {
+  margin: 0;
+  padding: 1rem;
+  background: #FFAA4D;
+  color: white;
+}
+
+.order {
+  background: #F2F7FA;
+  text-align: center;
+  padding: 5%;
+}
+
+.order li {
+  display: inline-block;
+  padding: 3rem 1rem;
+}
+
+.order a {
+  margin: 1%;
+}
+
+.order i {
+  margin: 3rem 0.25rem;
+}
+
+.order-image {
+  width: 25%;
+}
+
+.book {
+  padding: 5%;
+  background: #FBFBFC;
+  text-align: center;
+}
+
+.book span {
+  display: block;
+}
+
+.book-info {
+  width: 50%;
+  float: right
+}
+
+.book img {
+  width: 70%;
+}
+
+.test {
+  padding: 5%;
+  text-align: center;
+}
+
+.test img {
+  margin: 2rem;
+}
+
+.test span {
+  display: block;
+}

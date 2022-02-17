@@ -21,25 +21,23 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
 
+
+ul {
+  list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-nav,main,aside{
-  float: left;
-  width: 10%;
+body {
+  display: flex;
 }
-main{
-  width: 50%;
-}
-aside{
-  width: 40%;
-} 
-
 
 /******************************************
 /* ADDITIONAL STYLES
