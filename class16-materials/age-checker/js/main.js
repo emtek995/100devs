@@ -11,3 +11,20 @@
 //On click of the h1
 //Take the value from the input
 //Place the result of the conditional in the paragraph
+const h = document.querySelector('h1');
+h.addEventListener('click', () => {
+    const age = Number(document.querySelector('#danceDanceRevolution').value);
+    if (age < 16) {
+        h.innerText = 'can not drive';
+    } else if (age < 18) {
+        h.innerText = 'get out the club';
+    } else if (age < 21) {
+        h.innerText = 'no drinks';
+    } else if (age < 25) {
+        h.innerText = 'no car for you';
+    } else if (age < 30) {
+        h.innerText = 'still no car for you';
+    } else {
+        h.innerText = 'perfection';
+    }
+})
