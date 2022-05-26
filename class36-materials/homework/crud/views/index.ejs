@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Crud homework with TS not JS</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <h1>May Node and TS and Express be with you.</h1>
+
+        <form action="/quotes" method="post">
+            <input type="text" placeholder="name" name="name" />
+            <input type="text" placeholder="quote" name="quote" />
+            <button type="submit">Submit</button>
+        </form>
+
+        <button id="update-button">update</button>
+        <button id="delete-button">delete</button>
+
+        <ul class="quotes">
+            <% for(let i = 0; i < quotes.length; i++) {%>
+            <li class="quote">
+                <span><%= quotes[i].name %></span>
+                <span><%= quotes[i].quote %></span>
+            </li>
+            <% } %>
+        </ul>
+
+        <script src="/main.js"></script>
+    </body>
+</html>
