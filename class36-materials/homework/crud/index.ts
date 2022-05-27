@@ -51,8 +51,17 @@ MongoClient.connect("mongodb://calendardb:27017").then((client) => {
             .catch((error) => console.error(error));
     });
 
-    app.delete('/quotes', (res, req) => {
-        quotesCollection.deleteOne();
+    app.delete('/quotes', (req, res) => {
+        quotesCollection.deleteOne(
+            { name: req.body.name }
+        )
+        .then(result => {
+            if (result.deletedCount === 0) {
+                return res.json('No quote to delete!');
+            }
+            res.json('deleted a quote')
+        })
+        .catch(error => console.error(error));
     })
 });
 
